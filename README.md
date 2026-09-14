@@ -111,3 +111,9 @@ git clone https://github.com/VKirill/telegram-ads-method.git ~/.codex/skills/tel
 ## Поиск слов в разных падежах
 
 Установить зависимости: `python3 scripts/setup_catalog.py`. Поиск по умолчанию расширяет русские слова через pymorphy3: «Испания» → «Испании», «Испанией», «Испанию». Режим без расширения: --exact; показать формы: --explain-query. База остаётся прежней.
+
+## Пример отчёта
+
+[Посмотреть подбор каналов для психолога в Испании](https://vechkasov.pro/examples/telegram-ads/sando-spain/). Все кандидаты, причины отбора, доказательства и фильтры.
+
+HTML собирается детерминированно из JSON: [инструкция](references/html-report.md), [шаблон](assets/report.html), [скрипт](scripts/render_report.py).

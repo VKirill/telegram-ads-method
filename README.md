@@ -92,7 +92,7 @@ git clone https://github.com/VKirill/telegram-ads-method.git ~/.codex/skills/tel
 
 Опыт и материалы: [Мария Смирнова · Маша & Russian Ads](https://t.me/masha_tg_ads).  
 Создатель скилла: **Кирилл Вечкасов**.  
-Версия методики: **0.8.0**.
+Версия методики: **0.9.0**.
 
 ## Подбор каналов из базы
 
@@ -107,3 +107,7 @@ git clone https://github.com/VKirill/telegram-ads-method.git ~/.codex/skills/tel
 [Процесс](references/channel-selection.md): матрица поиска → полный реестр → сбор постов → оценка каждого канала → проверка покрытия → полный список и отдельный стартовый пул. [JSON-контракт](assets/channel-review-contract.md), [валидатор](scripts/validate_reviews.py).
 
 Одна методика, два профиля: [Codex / Luna high](profiles/codex.md) и [Claude Code / Haiku](profiles/claude-code.md). Профили содержат только различия запуска; изменения методики автоматически общие для обоих. Доступность модели и Fast/priority проверяется в конкретной среде.
+
+## Поиск слов в разных падежах
+
+Установить зависимости: `python3 scripts/setup_catalog.py`. Поиск по умолчанию расширяет русские слова через pymorphy3: «Испания» → «Испании», «Испанией», «Испанию». Режим без расширения: --exact; показать формы: --explain-query. База остаётся прежней.

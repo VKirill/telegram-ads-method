@@ -1,0 +1,38 @@
+{
+  "parts": [
+    {
+      "file": "tgpages-2026-09-14.7z.001",
+      "bytes": 95000000,
+      "sha256": "c5ae6de500a1354f26397032fbe152f427bff0be278cae8e2acca8ed14fc0969"
+    },
+    {
+      "file": "tgpages-2026-09-14.7z.002",
+      "bytes": 95000000,
+      "sha256": "031edb788dda4ec8fefdfa81778695f9624b57524854608240e1dcfc8ea6deb2"
+    },
+    {
+      "file": "tgpages-2026-09-14.7z.003",
+      "bytes": 95000000,
+      "sha256": "85e573d52482ddc68b29aaf92cd72a903f6a4a2a0f81be8d404b603a8087f4e5"
+    },
+    {
+      "file": "tgpages-2026-09-14.7z.004",
+      "bytes": 71302207,
+      "sha256": "5699b0be672ad28af833acffac5bc803797b7544081bd82af7ee86245df637a7"
+    }
+  ],
+  "files": [
+    {
+      "file": "channels.sqlite",
+      "bytes": 992645120,
+      "sha256": "cf4b2744bf745507e294118b27f36dfe5a510268d68fff326e3f6aae5bf5386b",
+      "restored_hash_matches": true
+    },
+    {
+      "file": "channels-enriched.csv",
+      "bytes": 416080304,
+      "sha256": "b76991ae037acece64d8330a3c8e25cd27ed05e872c6afc41ce11de17a85c84b",
+      "restored_hash_matches": true
+    }
+  ]
+}
